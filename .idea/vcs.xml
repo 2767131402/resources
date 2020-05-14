@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/activity" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/elasticsearch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/stream-upload" vcs="Git" />
   </component>
 </project>

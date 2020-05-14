@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="resources" />
         <module name="null-annotation" />
         <module name="dynamicdatasource" />
         <module name="stream-upload" />
@@ -17,6 +16,16 @@
         <module name="elasticsearch" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activity" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="dynamicdatasource" target="1.8" />
+      <module name="elasticsearch" target="1.8" />
+      <module name="guava-ratelimiter" target="1.8" />
+      <module name="null-annotation" target="1.8" />
+      <module name="stream-upload" target="1.8" />
+      <module name="utils" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
