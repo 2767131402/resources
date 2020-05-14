@@ -161,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589450870626</updated>
-      <workItem from="1589450873398" duration="4913000" />
+      <workItem from="1589450873398" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1589456380952</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589456380952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1589457044909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589457044909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,14 +228,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589450885711" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1589456927284">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1589458191533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589456927284" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1589456619632">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589458191533" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1589458115898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589456619632" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589458115898" />
     <state x="339" y="128" key="git4idea.merge.GitPullDialog" timestamp="1589456230078">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
