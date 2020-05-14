@@ -38,7 +38,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\soft\MavenRepository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.3" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="D:\soft\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -371,10 +371,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589463940746" />
-    <state x="382" y="75" key="VcsDiffUtil.ChangesDialog" timestamp="1589463170312">
+    <state x="382" y="75" key="VcsDiffUtil.ChangesDialog" timestamp="1589464694111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="382" y="75" key="VcsDiffUtil.ChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589463170312" />
+    <state x="382" y="75" key="VcsDiffUtil.ChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589464694111" />
     <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1589461633511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
