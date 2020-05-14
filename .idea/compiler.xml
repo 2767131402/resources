@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="resources" />
+        <module name="null-annotation" />
+        <module name="dynamicdatasource" />
+        <module name="stream-upload" />
+        <module name="guava-ratelimiter" />
+        <module name="utils" />
+        <module name="activity" />
+        <module name="elasticsearch" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activity" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="dynamicdatasource" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
+      <module name="guava-ratelimiter" options="-parameters" />
+      <module name="null-annotation" options="-parameters" />
+      <module name="stream-upload" options="-parameters" />
+      <module name="utils" options="-parameters" />
+    </option>
+  </component>
+</project>

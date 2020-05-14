@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    master:
+      password: root
+      url: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      type: com.alibaba.druid.pool.DruidDataSource
+    cluster:
+      - key: slave1
+        password: root
+        url: jdbc:mysql://127.0.0.1:3306/slave1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        idle-timeout: 20000
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        type: com.alibaba.druid.pool.DruidDataSource
+      - key: slave2
+        password: root
+        url: jdbc:mysql://127.0.0.1:3306/slave2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        idle-timeout: 20000
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
+
+api:
+  boot:
+    logging:
+      # Logging Admin相关配置
+      admin:
+        # 控制台显示采集的日志信息
+        show-console-report-log: true
+        # 美化日志
+        format-console-log-json: true
+
