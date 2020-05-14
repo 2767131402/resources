@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2075b68c-204b-40fb-a200-8a0d150b31ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/test/java/com/bbd/nested.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/bbd/conf/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/test/java/com/bbd/AggregationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/test/java/com/bbd/AggregationTests.java" afterDir="false" />
+    <list default="true" id="2075b68c-204b-40fb-a200-8a0d150b31ab" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,8 +161,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589450870626</updated>
-      <workItem from="1589450873398" duration="4102000" />
+      <workItem from="1589450873398" duration="4913000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1589456380952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589456380952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,16 +189,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589455472572">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589455472572" />
-    <state x="514" y="238" key="Github.ShareDialog" timestamp="1589455805494">
+    <state x="514" y="238" key="Github.ShareDialog" timestamp="1589456255834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="514" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1589455805494" />
+    <state x="514" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1589456255834" />
     <state x="362" y="38" key="Github.UntrackedFilesDialog" timestamp="1589455849872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -213,10 +221,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589450885711" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1589455784742">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1589456927284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589455784742" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589456927284" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1589456619632">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589456619632" />
+    <state x="339" y="128" key="git4idea.merge.GitPullDialog" timestamp="1589456230078">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="339" y="128" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1589456230078" />
     <state x="28" y="1" key="new project wizard" timestamp="1589451602939">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
