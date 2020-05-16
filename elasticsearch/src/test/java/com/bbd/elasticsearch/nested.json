@@ -1,0 +1,24 @@
+{
+  "_index": "earth",
+  "_type": "earth2",
+  "_id": "n-3",
+  "_version": 1,
+  "_score": 1,
+  "_source": {
+    "jid": "n-3",
+    "udateTime": "2018-01-30 14:10:04",
+    "orderItem": [
+      {
+        "orderType": "RO",
+        "orderDate": "20170708",
+        "orderItems": [
+          {
+            "skuNo": "154018",
+            "stockSite": "0001",
+            "costOfSale": 108.9
+          }
+        ]
+      }
+    ]
+  }
+}
