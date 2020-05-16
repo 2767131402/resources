@@ -12,8 +12,10 @@
         <module name="guava-ratelimiter" />
         <module name="test" />
         <module name="dynamicdatasource" />
+        <module name="stream-upload" />
         <module name="utils" />
         <module name="null-annotation" />
+        <module name="activity" />
         <module name="elasticsearch" />
       </profile>
     </annotationProcessing>

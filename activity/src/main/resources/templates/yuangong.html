@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>员工页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<h1>当前登录账号为：yuangong</h1>
+	<h4>请假申请：</h4>
+	<form action="http://localhost:8080/activity/createActiviti">
+		<input type="hidden" name="applyUser" value="yuangong" />
+		请假人：yuangong<br>
+		请假天数：<input type="text" name="days" value=""/><br>
+		请假原因：<input type="text" name="reason" value=""/><br>
+		<input type="submit" value="提交"/>
+	</form>
+
+	<h4><a href="http://localhost:8080/activity/myActiviti?userName=yuangong">我的请假记录(点我)：</a></h4>
+	<table>
+		<tr>
+			<th>请假人</th>
+			<th>请假天数</th>
+			<th>请假时间</th>
+			<th>请假原因</th>
+			<th>申请状态</th>
+		</tr>
+		<tr th:each="l : ${list}">
+			<td th:text="${l.applyUser}"/>
+			<td th:text="${l.days}"/>
+			<td th:text="${l.applyTime}"/>
+			<td th:text="${l.reason}"/>
+			<td th:text="${l.applyStatus}"/>
+		</tr>
+	</table>
+</body>

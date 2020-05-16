@@ -1,0 +1,36 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
+  resources:
+    static-locations: classpath:/static/
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/activity?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+  activiti:
+    #在activiti的默认配置中，process-definition-location-prefix 是指定activiti流程描述文件的前缀（即路径），
+    #启动时，activiti就会去寻找此路径下的流程描述文件，并且自动部署；suffix 是一个String数组，表示描述文件的默    认后缀名，默认以上两种。
+    check-process-definitions: true #自动检查、部署流程定义文件
+    database-schema-update: true #自动更新数据库结构
+    #流程定义文件存放目录
+    process-definition-location-prefix: classpath:/processes/
+    #process-definition-location-suffixes: #流程文件格式
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/activity?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+      initsize: 10
+      maxActive: 20
+      minIdle: 10
+      maxWait: 120000
+      poolPreparedStatements: false
+      maxOpenPreparedStatements: -1
+      validationQuery: select 1
+      testOnborrow: true
+      testOnReturn: true
+      testWhileIdle: true
+      timeBetweenEvictionRunsMillis: 120000
