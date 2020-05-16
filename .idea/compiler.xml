@@ -16,7 +16,6 @@
         <module name="utils" />
         <module name="null-annotation" />
         <module name="activity" />
-        <module name="elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
