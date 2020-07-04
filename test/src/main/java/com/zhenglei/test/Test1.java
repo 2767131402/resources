@@ -2,8 +2,8 @@ package com.zhenglei.test;
 
 public class Test1 {
     public static void main(String[] args) {
-        String a = "121";
-        StringBuffer sb = new StringBuffer(a);
-        String s = sb.reverse().toString();
+        String s = "a";
+        String str5 = s + "b";
+        System.out.println(str5 == "ab");
     }
 }

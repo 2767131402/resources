@@ -13,6 +13,7 @@
         <module name="test" />
         <module name="dynamicdatasource" />
         <module name="stream-upload" />
+        <module name="excel-utils" />
         <module name="utils" />
         <module name="null-annotation" />
         <module name="activity" />
@@ -24,6 +25,7 @@
       <module name="demo" target="1.8" />
       <module name="dynamicdatasource" target="1.8" />
       <module name="elasticsearch" target="1.8" />
+      <module name="excel-utils" target="1.8" />
       <module name="guava-ratelimiter" target="1.8" />
       <module name="null-annotation" target="1.8" />
       <module name="resources" target="1.7" />
@@ -38,6 +40,7 @@
       <module name="demo" options="-parameters" />
       <module name="dynamicdatasource" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
+      <module name="excel-utils" options="-parameters" />
       <module name="guava-ratelimiter" options="-parameters" />
       <module name="null-annotation" options="-parameters" />
       <module name="stream-upload" options="-parameters" />
