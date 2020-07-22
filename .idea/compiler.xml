@@ -10,7 +10,6 @@
         <module name="demo" />
         <module name="resources" />
         <module name="guava-ratelimiter" />
-        <module name="test" />
         <module name="dynamicdatasource" />
         <module name="stream-upload" />
         <module name="excel-utils" />

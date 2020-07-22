@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/null-annotation/null-annotation.iml" filepath="$PROJECT_DIR$/null-annotation/null-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/resources.iml" filepath="$PROJECT_DIR$/.idea/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-upload/stream-upload.iml" filepath="$PROJECT_DIR$/stream-upload/stream-upload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/加密/加密.iml" filepath="$PROJECT_DIR$/加密/加密.iml" />
     </modules>
